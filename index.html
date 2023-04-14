@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/swiper.css"/>
+    <link rel="stylesheet" href="public/styles.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <title>Superpeer</title>
+</head>
+<body class="font-fontPrimary">
+
+
+    <header class="flex flex-col overflow-hidden max-w-[1110px] px-[10px] mx-auto">
+        <div class="flex justify-between items-center min-h-[70px] lg:h-[147px]">
+            <div class="w-1/2">
+                <a class="inline-block lg:max-w-[343px] sm:max-w-[210px]" href="#">
+                    <img class="object-cover" src="img/logo.png" alt="Superpeer">
+                </a>
+            </div>
+            <div>
+                <button class="font-normal text-base text-black text-center bg-white border border-darkGray rounded-lg px-[10px] py-[8px] md:px-[31px] md:py-[10px] hover:rounded transition-all focus:font-bold">Sign In</button>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="grow overflow-hidden">
+        <!-- первый экран с CTA -->
+        <section class="relative max-w-[1440px] mx-auto pb-[50px] lg:pb-[100px]">            
+            <!-- вторая картинка (видна на всех устройствах). поставлена абсолютом -->
+            <div class="mb-[20px] lg:mb-0 lg:absolute lg:top-[50px]  lg:right-[-170px] 2xl:right-0 z-10">
+                <img class="object-cover w-full" src="img/promo-desktop.png" alt="join superpeer">
+            </div>
+            <!-- обертка контента -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start sm:flex-row-reverse max-w-[1110px] mx-auto relative">
+                <!-- первая картинка (видна на 1024px и выше). поставлена абсолютом -->
+                <div class="hidden lg:block lg:absolute lg:top-[120px] lg:right-[300px] ">
+                    <img class="object-cover" src="img/promo-phone.png" alt="join superpeer">
+                </div>
+                <!-- заголовок и кнопка -->
+                <div class="flex flex-col items-center lg:items-start max-w-[1110px] lg:w-[1110px] lg:pt-[110px] px-[10px] mx-auto sm:text-center lg:text-left">
+                    <h1 class="font-normal text-[28px] sm:text-[34px] lg:text-[68px] leading-[40px] lg:leading-[75px] text-darkGray max-w-[425px] mb-[20px] sm:mb-[30px] lg:mb-[27px]">A video platform for the world’s leading minds</h1>
+                    <p class="font-normal text-[20px] leading-[28px] text-lightGray max-w-[401px] mb-[31px] sm:mb-[30px]">
+                        Superpeer gives you the tools you need to have paid 1:1 video calls and livestreams with your audience and paid subscribers.
+                    </p>
+                    <button class="font-normal text-base text-black uppercase text-center bg-yellowBTN border border-yellowBTN rounded-lg px-[31px] py-[15px] hover:rounded transition-all">REQUEST INVITE</button>
+                </div>
+            </div>
+        </section>
+        <!-- секция с возможностями продукта -->
+        <section class="flex flex-col items-center  mx-auto pt-[20px] sm:pt-0 custom-bg-gold-gradient pb-[50px] md:pb-[100px] lg:pb-[200px] xl:pb-[300px]">
+            <!-- дэкор вверху секции -->
+            <svg class="hidden sm:block 3xl:hidden" width="1440" height="83" viewBox="0 0 1440 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1440 0L0 0L0 78.5971C0 78.5971 188.5 13.1864 340.111 41.0377C491.722 68.889 598.092 84.5107 697.395 82.8849C743.873 82.124 806.499 68.3031 872.151 53.8143C946.766 37.3474 1025.29 20.0178 1088.46 20.0178C1225.53 20.0178 1440 82.8849 1440 82.8849V0Z" fill="white"/>
+                </svg>
+                <svg class="hidden 3xl:block" width="2560" height="83" viewBox="0 0 2560 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2560 0L0 0L0 78.5971C0 78.5971 335.111 13.1864 604.642 41.0377C874.172 68.889 1063.27 84.5107 1239.81 82.8849C1322.44 82.124 1433.78 68.3031 1550.49 53.8143C1683.14 37.3474 1822.74 20.0178 1935.04 20.0178C2178.72 20.0178 2560 82.8849 2560 82.8849V0Z" fill="white"/>
+                    </svg>
+            <!-- контент -->
+            <div class="flex flex-col max-w-[1110px] lg:w-[1110px] px-[10px] md:pt-[50px] lg:pt-[100px] mx-auto">
+                <!-- Заголовок -->
+                <div class="flex flex-col items-center pb-[20px] sm:pb-[50px] lg:pb-[99px] w-full">
+                    <h2 class="mb-[8px] max-w-[500px] text-center font-normal text-[28px] lg:text-[52px] leading-[62px] tracking-[1px] text-darkGray">Take 1:1 Video Calls</h2>
+                     <p class="mb-[15px] max-w-[661px] text-center font-normal text-[18px] lg:text-[20px] leading-[28px] text-lightGray" >Join best-selling authors, TED speakers, YouTubers, and advisors using Superpeer to earn online!</p>
+                </div>
+                <!-- первое преимущество -->
+               <div class="flex flex-col sm:flex-row items-center md:justify-start mb-[30px]">
+                   <div class="max-w-[270px] mb-[15px] sm:mr-[30px] lg:mr-[40px]">
+                       <img class="object-cover w-full" src="img/calendar.png" alt="calendar">
+                   </div>
+                   <div class="max-w-[330px] sm:mb-[250px]">
+                       <h3 class="mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">1. Pick your own schedule</h3>
+                       <p class="text-[18px] leading-[25px] text-lightGray">You have total control over your availability. Superpeer checks your calendar and only accepts bookings when you are free.</p>
+                   </div>
+               </div>
+               <!-- второе преимущество -->
+               <div class="flex flex-col md:justify-center items-center lg:mt-[-255px] mb-[30px]">
+                   <div class="max-w-[850px] mb-[15px] md:mb-[39px] sm:mr-[30px] lg:mr-[40px]">
+                       <img class="object-cover w-full" src="img/set-youre-rate.png" alt="set-youre-rate">
+                   </div>
+                   <div class="w-full flex flex-col lg:ml-[200px]">
+                       <h3 class="max-w-[300px] mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">2. Set your rate</h3>
+                       <p class="max-w-[300px] text-[18px] leading-[25px] text-lightGray">Superpeer automatically collects payments for you via credit card or PayPal with automatic refunds and no-show protection.</p>
+                   </div>
+               </div>
+               <!-- третье преимущество -->
+               <div class="flex flex-col sm:flex-row md:flex-end items-center sm:items-end justify-end lg:mt-[-360px]">
+                   <div class="max-w-[270px] mb-[15px] sm:ml-[30px] lg:ml-[40px] sm:order-2">
+                       <img class="object-cover w-full" src="img/meet-in-browser.png" alt="meet-in-browser">
+                   </div>
+                   <div class="max-w-[330px] pb-[10px] sm:order-1 lg:text-right">
+                       <h3 class="mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">3. Meet right in the browser</h3>
+                       <p class="text-[18px] leading-[25px] text-lightGray">No apps or downloads required. Simply hop into calls right from the calendar invite into the browser.</p>
+                   </div>                
+               </div>
+            </div>
+        </section>
+        
+        <!-- секция с инфо про стримы -->
+        <section class="flex flex-col items-center  mx-auto pt-[20px] sm:pt-0 custom-bg-gray-gradient pb-[50px] md:pb-[100px] lg:pb-[200px] xl:pb-[300px]">
+            <div class="flex flex-col max-w-[1110px] lg:w-[1110px] px-[10px] md:pt-[50px] lg:pt-[100px] mx-auto">
+                <!-- Заголовок -->
+                <div class="flex flex-col items-center pb-[20px] sm:pb-[50px] lg:pb-[99px] w-full">
+                    <h2 class="mb-[8px] max-w-[560px] text-center font-normal text-[28px] lg:text-[52px] leading-[62px] tracking-[1px] text-darkGray">Beautiful Livestreams</h2>
+                     <p class="mb-[15px] max-w-[662px] text-center font-normal text-[18px] lg:text-[20px] leading-[28px] text-lightGray" >Superpeer Channels allow you to host livestreams, build a community and earn with recurring monthly subscriptions.</p>
+                </div>
+                <!-- первое преимущество -->
+               <div class="flex flex-col sm:flex-row items-center md:justify-start mb-[30px]">
+                   <div class="max-w-[270px] mb-[15px] sm:mr-[30px] lg:mr-[40px]">
+                       <img class="object-cover w-full" src="img/streams-subs.png" alt="streams-subs">
+                   </div>
+                   <div class="max-w-[330px] sm:mb-[250px]">
+                       <h3 class="mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">1. Turn your audience into subscribers</h3>
+                       <p class="text-[18px] leading-[25px] text-lightGray">Superpeer channels are designed to accrue subscribers and automatically send them a calendar invite each time you do another stream.</p>
+                   </div>
+               </div>
+               <!-- второе преимущество -->
+               <div class="flex flex-col md:justify-center items-center lg:mt-[-255px] mb-[30px]">
+                   <div class="max-w-[850px] mb-[15px] md:mb-[39px] sm:mr-[30px] lg:mr-[40px]">
+                       <img class="object-cover w-full" src="img/stream-group.png" alt="stream-group">
+                   </div>
+                   <div class="w-full flex flex-col lg:ml-[200px]">
+                       <h3 class="max-w-[330px] mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">2. Livestream with small groups or thousands of viewers</h3>
+                       <p class="max-w-[300px] text-[18px] leading-[25px] text-lightGray">Superpeer gives you tools to let your viewers go live with you and speak, comment and upvote, and network with each other.</p>
+                   </div>
+               </div>
+               <!-- третье преимущество -->
+               <div class="flex flex-col sm:flex-row sm:flex-end items-center sm:items-end justify-end lg:mt-[-360px]">
+                   <div class="max-w-[270px] mb-[15px] sm:ml-[30px] lg:ml-[40px] sm:order-2">
+                       <img class="object-cover w-full" src="img/stream-earn.png" alt="stream-earn">
+                   </div>
+                   <div class="max-w-[270px] pb-[10px] sm:order-1 lg:text-right">
+                       <h3 class=" mb-[8px] font-normal text-[22px] leading-[29pxpx] text-darkGray">3. Earn recurring revenue through subscriptions</h3>
+                       <p class="text-[18px] leading-[25px] text-lightGray">Sell tickets to streams, introduce channel subscription fees, allow donations, or make it totally free.</p>
+                   </div>                
+               </div>
+            </div>
+        </section>
+
+        <!-- секция Features -->
+        <section class="flex flex-col items-center overflow-hidden max-w-[1110px] px-[10px] mx-auto pt-[100px] md:pt-[160px] pb-[240px]">
+            <h2 class="mb-[77px] text-[55px] text-center leading-[62px] tracking-[1px] text-darkGray">Features</h2>
+            <!-- грид контейнер -->
+            <div class="grid auto-rows-auto md:grid-cols-3 sm:grid-cols-2 gap-y-[92px] gap-x-[30px]">
+                <!-- карточка 1 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/subs.png" alt="subcribers">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">Subscriber Management Tools</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            Superpeer makes it easy for you to learn more about your subscribers with email management and analytics tools.
+                        </p>
+                    </div>
+                </div>
+                <!-- карточка 2 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/camera.png" alt="recirdings">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">Recordings</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            High quality video and audio recordings are available instantly for publishing and download.
+                        </p>
+                    </div>
+                </div>
+                <!-- карточка 3 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/transcription.png" alt="">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">Transcription</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            Every stream is recorded and transcribed automatically at no additional cost to you (coming soon!)
+                        </p>
+                    </div>
+                </div>
+                <!-- карточка 4 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/locked.png" alt="members only">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">Members-only Channels</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            You can require an approval before someone can subscribe to your channel. This is great for client-only or employee-only channels.
+                        </p>
+                    </div>
+                </div>
+                <!-- карточка 5 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/smile.png" alt="no monthly costs">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">No Monthly Costs</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            Superpeer is free to use, we only make money when you make money.
+                        </p>
+                    </div>
+                </div>
+                <!-- карточка 6 -->
+                <div class="felx flex-col justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="max-w-[320px] mb-[17px]">
+                            <img class="object-cover" src="img/features-icons/phone.png" alt="no gear">
+                        </div>
+                        <h4 class="mb-[7px] text-[22px] leading-[29px] text-center text-darkGray">No Expensive Gear Required</h4>
+                        <p class="text-[18px] leading-[25px] text-center text-lightGray">
+                            Livestream just as easily as getting on a FaceTime call, without high-end microphones or cameras—and it looks amazing!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- слайдер -->
+        <section class="flex flex-col items-center pt-[30px] pb-[60px] bg-[#FFF9E8] min-w-0">
+            <h2 class="mb-[60px] text-[55px] leading-[62px] text-center text-darkGray">Pricing</h2>
+            
+            <div class="relative pb-[50px]">
+                <!-- swiper-button-prev -->
+                <div class="swiper-btn-prev absolute left-[-80px] top-[80px] w-[50px] h-[50px] z-20 py-[12px] pl-[15px] pr-[17px] bg-[#FFD338] rounded-full">
+                    <svg width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2083 3.05729L13.2917 0.140625L0.791656 12.6406L13.2917 25.1406L16.2083 22.224L6.62499 12.6406L16.2083 3.05729Z" fill="#222222"/>
+                        </svg>
+                </div>
+                <!-- Slider main container -->
+            <div class="swiper max-w-[775px] px-[10px]">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex flex-col items-center justify-evenly w-[348px] h-[214px] bg-darkGray rounded-[30px]">
+                      <p class="text-[19px] leading-[26px] text-center text-white">1:1 Calls</p>
+                      <p class="text-[50px] leading-[50px] text-center text-white items-center flex">
+                          <span class="inline-block line-through text-[#666] mr-[16px]">
+                              10%
+                          </span>0%</p>
+                      <p class="text-[16px] leading-[22px] text-center text-[#999]">Just Credit Card fees - 3%</p>
+                  </div>
+                  <div class="swiper-slide flex flex-col items-center justify-evenly w-[348px] h-[214px] bg-darkGray rounded-[30px]">
+                      <p class="text-[19px] leading-[26px] text-center text-white">Channels</p>
+                      <p class="text-[50px] leading-[50px] text-center text-white items-center flex">
+                        10%
+                      </p>
+                      <p class="text-[16px] leading-[22px] text-center text-[#999]">Just Credit Card fees - 3%</p>
+                  </div>
+                  <div class="swiper-slide flex flex-col items-center justify-evenly w-[348px] h-[214px] bg-darkGray rounded-[30px]">
+                      <p class="text-[19px] leading-[26px] text-center text-white">1:1 Calls</p>
+                      <p class="text-[50px] leading-[50px] text-center text-white items-center flex">
+                          <span class="inline-block line-through text-[#666] mr-[16px]">
+                              10%
+                          </span>0%</p>
+                      <p class="text-[16px] leading-[22px] text-center text-[#999]">Just Credit Card fees - 3%</p>
+                  </div>
+                  <div class="swiper-slide flex flex-col items-center justify-evenly w-[348px] h-[214px] bg-darkGray rounded-[30px]">
+                      <p class="text-[19px] leading-[26px] text-center text-white">Channels</p>
+                      <p class="text-[50px] leading-[50px] text-center text-white items-center flex">
+                        10%
+                      </p>
+                      <p class="text-[16px] leading-[22px] text-center text-[#999]">Just Credit Card fees - 3%</p>
+                  </div>
+                  <div class="swiper-slide flex flex-col items-center justify-evenly w-[348px] h-[214px] bg-darkGray rounded-[30px]">
+                      <p class="text-[19px] leading-[26px] text-center text-white">1:1 Calls</p>
+                      <p class="text-[50px] leading-[50px] text-center text-white items-center flex">
+                          <span class="inline-block line-through text-[#666] mr-[16px]">
+                              10%
+                          </span>0%</p>
+                      <p class="text-[16px] leading-[22px] text-center text-[#999]">Just Credit Card fees - 3%</p>
+                  </div>
+                </div>                
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+              </div>
+              <!-- swiper-button-next -->
+              <div class="swiper-btn-next absolute right-[-80px] top-[80px] w-[50px] h-[50px] z-20 py-[12px] pl-[17px] pr-[15px] bg-[#FFD338] rounded-full">
+                <svg width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.791706 22.224L3.70837 25.1406L16.2084 12.6406L3.70837 0.140625L0.791706 3.05729L10.375 12.6406L0.791706 22.224Z" fill="#222222"/>
+                    </svg>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination w-[40px] overflow-hidden bg-transparent absolute bottom-[0px] left-[355px] z-20">
+              </div>
+            </div>
+            
+        </section>
+
+        <!-- секция подписаться -->
+        <section class="flex flex-col items-center py-[50px] md:py-[150px] lg:py-[220px]">
+            <h2 class="text-[30px] md:text-[40px] lg:text-[55px] text-center leading-[62px] text-darkGray mb-[25px]">Ready to become a Superpeer?</h2>
+            <p class="font-normal text-center text-[20px] leading-[28px] text-lightGray mb-[33px] max-w-[429px]">
+                Build and grow your community face-to-face and make money while you do it.
+            </p>
+            <button class="font-normal text-base text-black uppercase text-center bg-yellowBTN border border-yellowBTN rounded-lg px-[31px] py-[15px] hover:rounded transition-all">REQUEST INVITE</button>
+        </section>
+    </main>
+
+    <footer class="flex flex-wrap overflow-hidden max-w-[1110px] px-[10px] mx-auto pt-[200px] pb-[110px]">
+        <ul class="flex text-[16px] leading-[24px] text-darkGray mb-[30px] md:mb-0 md:mr-[100px] lg:mr-[254px]">
+            <li class="mr-[32px] last:m-0"><a class="hover:underline trasi" href="#">Blog</a></li>
+            <li class="mr-[32px] last:m-0"><a class="hover:underline trasi" href="#">FAQ</a></li>
+            <li class="mr-[32px] last:m-0"><a class="hover:underline trasi" href="#">Privacy</a></li>
+            <li class="mr-[32px] last:m-0"><a class="hover:underline trasi" href="#">Terms</a></li>
+        </ul>
+        <div class="flex mb-[30px] md:mb-0 md:mr-[200px] lg:mr-[310px]">
+            <a class="mr-[24px] last:m-0" href="#">
+                <img  src="img/twitter.png" alt="superpeers twitter">
+            </a>
+            <a class="mr-[24px] last:m-0" href="#">
+                <img  src="img/instagram.png" alt="superpeers instagram">
+            </a>
+        </div>
+        <p class="ml-[60px] md:ml-0">Superpeer, Inc.</p>
+    </footer>
+    
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-bg-gold-gradient {
+  @apply bg-gradient-to-b from-[#FFF9E8] to-[#ffffff];
+}
+
+.custom-bg-gray-gradient {
+  @apply bg-gradient-to-b from-[#F0ECFF] to-[#ffffff];
+}
